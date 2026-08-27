@@ -1,0 +1,70 @@
+.location-section {
+  width: 100%;
+  padding: 55px 40px 70px;
+  box-sizing: border-box;
+  background-color: #ffecd2;
+  text-align: center;
+}
+
+/* Heading */
+.location-title {
+  margin: 0 0 40px;
+  color: #f04400;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+/* Address */
+.location-description {
+  margin: 0 auto 38px;
+  max-width: 1200px;
+  color: #102c4c;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+/* Map container */
+.location-map {
+  width: 100%;
+  height: 400px;
+  border-radius: 16px;
+  overflow: hidden;
+  border: 5px solid #ffd39b;
+  box-sizing: border-box;
+  background-color: #ffffff;
+}
+
+/* Google Map */
+.location-map iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  display: block;
+}
+
+/* ---------------- RESPONSIVE ---------------- */
+
+@media (max-width: 768px) {
+
+  .location-section {
+    padding: 40px 20px 50px;
+  }
+
+  .location-title {
+    font-size: 32px;
+    margin-bottom: 25px;
+  }
+
+  .location-description {
+    font-size: 17px;
+    line-height: 1.5;
+    margin-bottom: 25px;
+  }
+
+  .location-map {
+    height: 350px;
+    border-radius: 12px;
+  }
+}

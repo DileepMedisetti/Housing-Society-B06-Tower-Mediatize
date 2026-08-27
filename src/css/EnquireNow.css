@@ -1,0 +1,106 @@
+/* =========================================
+   ENQUIRE NOW - DESKTOP
+========================================= */
+
+.enquire-now {
+  position: fixed;
+
+  right: 0;
+  top: 52%;
+
+  transform: translateY(-50%) rotate(180deg);
+
+  width: 40px;
+  height: 150px;
+
+  padding: 0;
+  margin: 0;
+
+  border: none;
+  outline: none;
+
+  background-color: #d83b00;
+  color: #ffffff;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+
+  letter-spacing: 1px;
+
+  cursor: pointer;
+
+  z-index: 99999;
+
+  transition: background-color 0.3s ease;
+}
+
+
+/* Hover */
+
+.enquire-now:hover {
+  background-color: #ff5a00;
+}
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 768px) {
+
+  .enquire-now {
+    position: fixed;
+
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: auto;
+
+    transform: none;
+
+    width: 100%;
+    height: 55px;
+
+    border: none;
+    border-radius: 0;
+
+    writing-mode: horizontal-tb;
+
+    background-color: #d83b00;
+    color: #ffffff;
+
+    font-size: 17px;
+    font-weight: 700;
+
+    letter-spacing: 0.5px;
+
+    z-index: 99999;
+  }
+
+  .enquire-now:hover {
+    background-color: #ff5a00;
+  }
+}
+
+
+/* =========================================
+   SMALL MOBILE
+========================================= */
+
+@media (max-width: 500px) {
+
+  .enquire-now {
+    width: 100%;
+    height: 50px;
+
+    font-size: 15px;
+  }
+}

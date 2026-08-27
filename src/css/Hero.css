@@ -1,0 +1,59 @@
+/* =========================================
+   HERO
+========================================= */
+
+.hero {
+  position: relative;
+  width: 100%;
+  padding: 45px 40px 0;
+  box-sizing: border-box;
+}
+
+
+/* =========================================
+   HERO IMAGE
+========================================= */
+
+.hero-image {
+  display: block;
+  width: 100%;
+  height: auto;
+
+  border-radius: 16px;
+
+  object-fit: cover;
+}
+
+
+/* =========================================
+   TABLET
+========================================= */
+
+@media (max-width: 768px) {
+
+  .hero {
+    padding: 25px 20px 0;
+  }
+
+  .hero-image {
+    border-radius: 12px;
+  }
+
+}
+
+
+/* =========================================
+   SMALL MOBILE
+========================================= */
+
+@media (max-width: 500px) {
+
+  .hero {
+    padding: 20px 15px 0;
+  }
+
+  .hero-image {
+    border-radius: 10px;
+  }
+
+}

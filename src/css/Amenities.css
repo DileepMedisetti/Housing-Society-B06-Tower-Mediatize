@@ -1,0 +1,187 @@
+/* ================================
+   AMENITIES SECTION
+================================ */
+
+.amenities-section {
+  width: 100%;
+  padding: 30px 62px 50px;
+  box-sizing: border-box;
+  background-color: #ffecd2;
+}
+
+
+/* ================================
+   HEADING
+================================ */
+
+.amenities-title {
+  margin: 0 0 22px;
+
+  color: #f04400;
+
+  font-size: 30px;
+  font-weight: 700;
+
+  line-height: 1.2;
+}
+
+
+/* ================================
+   DESCRIPTION
+================================ */
+
+.amenities-description {
+  margin: 0;
+  max-width: 1650px;
+
+  color: #092d52;
+
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.7;
+
+  text-align: left;
+}
+
+
+/* ================================
+   GRID
+================================ */
+
+.amenities-grid {
+  width: 100%;
+
+  margin-top: 60px;
+
+  display: grid;
+
+  grid-template-columns: repeat(3, 1fr);
+
+  column-gap: 80px;
+  row-gap: 55px;
+
+  box-sizing: border-box;
+}
+
+
+/* ================================
+   ITEM
+================================ */
+
+.amenity-item {
+  display: flex;
+  align-items: center;
+
+  min-height: 48px;
+
+  transition: transform 0.2s ease;
+}
+
+
+/* ================================
+   ICON
+================================ */
+
+.amenity-icon {
+  width: 55px;
+  min-width: 55px;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+
+  color: #d83b00;
+
+  font-size: 30px;
+}
+
+
+/* ================================
+   TEXT
+================================ */
+
+.amenity-name {
+  color: #092d52;
+
+  font-size: 20px;
+  font-weight: 700;
+
+  line-height: 1.2;
+}
+
+
+/* ================================
+   TABLET
+================================ */
+
+@media (max-width: 1000px) {
+
+  .amenities-section {
+    padding: 28px 35px 45px;
+  }
+
+  .amenities-title {
+    font-size: 32px;
+  }
+
+  .amenities-description {
+    font-size: 19px;
+  }
+
+  .amenities-grid {
+    grid-template-columns: repeat(2, 1fr);
+
+    column-gap: 50px;
+    row-gap: 42px;
+  }
+
+  .amenity-icon {
+    width: 50px;
+    min-width: 50px;
+    font-size: 31px;
+  }
+
+  .amenity-name {
+    font-size: 20px;
+  }
+}
+
+
+/* ================================
+   MOBILE
+================================ */
+
+@media (max-width: 600px) {
+
+  .amenities-section {
+    padding: 25px 20px 40px;
+  }
+
+  .amenities-title {
+    font-size: 28px;
+    margin-bottom: 18px;
+  }
+
+  .amenities-description {
+    font-size: 17px;
+    line-height: 1.6;
+  }
+
+  .amenities-grid {
+    margin-top: 40px;
+
+    grid-template-columns: 1fr;
+
+    row-gap: 28px;
+  }
+
+  .amenity-icon {
+    width: 45px;
+    min-width: 45px;
+    font-size: 28px;
+  }
+
+  .amenity-name {
+    font-size: 18px;
+  }
+}
