@@ -18,7 +18,7 @@ function About() {
 
       <div className="about-image-container">
         <img
-          src="public/images/house-society.jpg"
+          src="/images/house-society.jpg"
           alt="Housing Society Buildings"
         />
       </div>
