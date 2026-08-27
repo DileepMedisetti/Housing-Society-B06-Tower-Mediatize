@@ -1,5 +1,5 @@
 import Stats from "./components/Stats"; 
-import Hero from "./components/hero";
+import Hero from "./components/Hero";
 import About from "./components/About";
 import SitePlan from "./components/SitePlan";
 import ProjectStatus from "./components/ProjectStatus";
@@ -9,7 +9,7 @@ import LocationHighlights from "./components/LocationHighlights";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import EnquireNow from "./components/EnquireNow";
-import Navbar from "./components/navbar";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
